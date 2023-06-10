@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\cup-hot-fill.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\cup-hot-fill.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
