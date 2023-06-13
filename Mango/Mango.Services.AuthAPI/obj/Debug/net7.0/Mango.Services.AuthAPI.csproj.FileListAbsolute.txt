@@ -11,6 +11,9 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\A
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Identity.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Humanizer.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -20,6 +23,9 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\M
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -77,9 +83,3 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\r
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.pdb
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\ref\Mango.Services.AuthAPI.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
