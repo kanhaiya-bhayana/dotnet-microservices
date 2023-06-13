@@ -1,0 +1,46 @@
+﻿@model LoginRequestDto
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    .required::after {
+        content: "*";
+        font-weight: bold;
+        padding: 2px color: red;
+    }
+</style>
+<form method="POST" asp-action="Login">
+    <div class="container border p-4 mt-5">
+        <div class="row text-center">
+            <h1>Login</h1>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <label class="control-label required pt-2" style="font-size:20px;">Username</label>
+            </div>
+            <div class="col-10 pb-2">
+                <input type="text" asp-for="UserName" class="form-control" placeholder="Username..." />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label class="control-label required pt-2" style="font-size:20px;">Password</label>
+            </div>
+            <div class="col-10 pb-2">
+                <input type="text" asp-for="Password" class="form-control" placeholder="Password..." />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="col-5 offset-2">
+
+                <a class="btn-primary btn form-control" asp-action="Register">Register</a>
+            </div>
+            <div class="col-5">
+                <button type="submit" class="form-control btn btn-success" value="Submit">Login</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+            }
