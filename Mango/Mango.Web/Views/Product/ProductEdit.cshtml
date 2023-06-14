@@ -1,13 +1,14 @@
 ﻿@model ProductDto
 @{
-	ViewData["Title"] = "Product Create";
+    ViewData["Title"] = "Product Edit";
 }
 
-<form asp-action="ProductCreate">
+<form asp-action="ProductEdit">
     <br />
     <div class="container border p-3">
-        <h2 class="text-dark text-center">Create Product</h2>
+        <h2 class="text-dark text-center">Product Edit</h2>
         <hr />
+        <input type="hidden" asp-for="ProductId" />
         <div class="row">
             <div class="col-2">
                 <label class="control-label pt-2" style="font-size:20px;">Name</label>
@@ -49,7 +50,7 @@
                 <a class="btn-primary btn form-control" asp-action="ProductIndex">Back to List</a>
             </div>
             <div class="col-5">
-                <input type="submit" value="Create" class="btn btn-success form-control" />
+                <input type="submit" value="Update" class="btn btn-success form-control" />
             </div>
         </div>
     </div>

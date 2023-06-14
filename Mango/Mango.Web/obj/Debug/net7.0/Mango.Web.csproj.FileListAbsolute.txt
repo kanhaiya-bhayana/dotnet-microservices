@@ -1,3 +1,11 @@
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.csproj.AssemblyReference.cache
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.AssemblyInfoInputs.cache
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.AssemblyInfo.cs
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.csproj.CoreCompileInputs.cache
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.RazorAssemblyInfo.cache
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.RazorAssemblyInfo.cs
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\appsettings.Development.json
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\appsettings.json
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\Mango.Web.staticwebassets.runtime.json
@@ -12,14 +20,6 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.Iden
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.csproj.AssemblyReference.cache
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.GeneratedMSBuildEditorConfig.editorconfig
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.AssemblyInfoInputs.cache
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.AssemblyInfo.cs
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.csproj.CoreCompileInputs.cache
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.RazorAssemblyInfo.cache
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.RazorAssemblyInfo.cs
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\staticwebassets\msbuild.Mango.Web.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.Mango.Web.props
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Mango.Web.props

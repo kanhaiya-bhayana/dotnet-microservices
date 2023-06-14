@@ -6,7 +6,7 @@
 <form asp-action="ProductDelete">
     <br />
     <div class="container border p-3">
-        <h1 class="text-white text-center">Create Product</h1>
+        <h2 class="text-dark text-center">Create Product</h2>
         <hr />
         <input type="hidden" asp-for="ProductId" />
         <div class="row">
@@ -50,7 +50,7 @@
                 <a class="btn-primary btn form-control" asp-action="ProductIndex">Back to List</a>
             </div>
             <div class="col-5">
-                <input type="submit" value="Delete" class="btn btn-success form-control" onclick="return confirm('Are you sure want to delete?');" />
+                <input type="submit" value="Delete" class="btn btn-danger form-control" onclick="return confirm('Are you sure want to delete?');" />
             </div>
         </div>
     </div>
