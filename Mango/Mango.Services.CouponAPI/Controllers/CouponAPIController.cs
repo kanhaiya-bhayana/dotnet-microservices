@@ -97,7 +97,12 @@ namespace Mango.Services.CouponAPI.Controllers
         {
             try
             {
+                var check = _db.Coupons.Any(u => u.CouponId == couponDto.CouponId);
                 Coupon obj = _mapper.Map<Coupon>(couponDto);
+                if (!check)
+                {
+                    throw new Exception(message: "Coupon does not exist.");
+                }
                 _db.Coupons.Update(obj);
                 _db.SaveChanges();
                 _response.Result = _mapper.Map<CouponDto>(obj);
