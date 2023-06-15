@@ -80,3 +80,4 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.pdb
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\ref\Mango.Services.ShoppingCartAPI.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
