@@ -44,6 +44,7 @@
                                 <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
                             </ul>
                         </li>
+                           
                         }
                         
                     </ul>
@@ -59,14 +60,28 @@
                         }
                         else
                         {
-                            
-                           
+
+                            <li class="nav-item dropdown p-2" style="margin-right:50px">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Profile
+                                </a>
+                                <ul class="dropdown-menu p-2">
+                                    <li><a class="dropdown-item text-dark" href="#">Hello, @User.Identity.Name</a></li>
+                                    <li><a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Logout">Logout</a></li>
+                                    
+                                </ul>
+                            </li>
                             <li class="nav-item">
+                                <a class="nav-link text-dark" style="margin-right:50px;margin-top:10px;" asp-area="" asp-controller="Cart" asp-action="CartIndex">
+                                    &nbsp; <i class="bi bi-cart"></i> &nbsp;
+                                </a>
+                            </li>
+                            @*<li class="nav-item">
                                 <a class="nav-link text-dark" href="#">Hello, @User.Identity.Name</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Logout">Logout</a>
-                            </li>
+                            </li>*@
                         }
                     </ul>
 
