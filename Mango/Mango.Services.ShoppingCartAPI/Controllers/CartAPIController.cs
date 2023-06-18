@@ -6,6 +6,7 @@ using Mango.Services.ShoppingCartAPI.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections;
 using System.Reflection.PortableExecutable;
 
 namespace Mango.Services.ShoppingCartAPI.Controllers
@@ -34,10 +35,12 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         {
             try
             {
+               
                 CartDto cart = new()
                 {
                     CartHeader = _mapper.Map<CartHeaderDto>(_db.CartHeaders.First(u => u.UserId == userId))
                 };
+
                 cart.CartDetails = _mapper.Map<IEnumerable<CartDetailsDto>>(_db.CartDetails
                     .Where(u=>u.CartHeaderId == cart.CartHeader.CartHeaderId));
 
@@ -62,6 +65,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
                 _response.Result = cart;
             }catch (Exception ex)
             {
+               
                 _response.IsSuccess = false;
                 _response.Message = ex.Message;
             }

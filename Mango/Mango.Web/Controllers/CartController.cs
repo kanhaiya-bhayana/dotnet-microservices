@@ -19,7 +19,13 @@ namespace Mango.Web.Controllers
         [Authorize]
         public async Task<IActionResult> CartIndex()
         {
-            return View(await LoadCartDtoBasedOnLoggedInUser());
+            var data = await LoadCartDtoBasedOnLoggedInUser();
+            if (data.CartDetails == null || data.CartHeader == null)
+            {
+                TempData["error"] = "Cart does not created yet, please add atleast one item into cart to view";
+                return RedirectToAction("Index","Home");
+            }
+            return View(data);
         }
 
         
