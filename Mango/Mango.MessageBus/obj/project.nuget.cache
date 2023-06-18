@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "JrhzCu/XBTJs9YrOWDExILi/Ci5zN2X61ZNchWdI7tkzHx/LiekiRRczYQO0IWWzOGe6gWS6m5+kU7J4R0d3gw==",
+  "success": true,
+  "projectFilePath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\azure.core\\1.32.0\\azure.core.1.32.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\azure.core.amqp\\1.3.0\\azure.core.amqp.1.3.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\azure.messaging.servicebus\\7.15.0\\azure.messaging.servicebus.7.15.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\microsoft.azure.amqp\\2.6.2\\microsoft.azure.amqp.2.6.2.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

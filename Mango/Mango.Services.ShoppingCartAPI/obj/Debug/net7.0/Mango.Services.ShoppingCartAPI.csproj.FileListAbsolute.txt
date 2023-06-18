@@ -81,3 +81,8 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\ref\Mango.Services.ShoppingCartAPI.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Azure.Core.Amqp.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Mango.MessageBus.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Mango.MessageBus.pdb
