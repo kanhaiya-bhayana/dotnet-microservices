@@ -51,6 +51,7 @@ namespace Mango.Web.Controllers
             }
             return View();
         }
+        [HttpPost]
         public async Task<IActionResult> EmailCart(CartDto cartDto)
         {
             CartDto cart = await LoadCartDtoBasedOnLoggedInUser();
@@ -60,9 +61,14 @@ namespace Mango.Web.Controllers
             if (response != null && response.IsSuccess)
             {
                 TempData["success"] = "Email will be processed and sent shortly.";
-                return RedirectToAction(nameof(CartIndex));
+
             }
-            return View();
+            else
+            {
+                TempData["error"] = response.Message;
+            }
+            return RedirectToAction(nameof(CartIndex));
+            //return View();
         }
         public async Task<IActionResult> RemoveCoupon(CartDto cartDto)
         {

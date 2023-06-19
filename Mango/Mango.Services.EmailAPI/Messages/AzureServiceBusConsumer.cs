@@ -30,6 +30,7 @@ namespace Mango.Services.EmailAPI.Messages
         {
             _emailCartProcessor.ProcessMessageAsync += OnEmailCartRequestReceived;
             _emailCartProcessor.ProcessErrorAsync += ErrorHandler;
+            await _emailCartProcessor.StartProcessingAsync();
         }
         public async Task Stop()
         {
