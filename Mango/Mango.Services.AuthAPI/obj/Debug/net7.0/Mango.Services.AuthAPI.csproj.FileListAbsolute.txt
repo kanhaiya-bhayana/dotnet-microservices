@@ -83,3 +83,9 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\r
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.pdb
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\ref\Mango.Services.AuthAPI.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Core.Amqp.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.MessageBus.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.MessageBus.pdb
