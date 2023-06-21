@@ -28,7 +28,18 @@ namespace Mango.Web.Controllers
             return View(data);
         }
 
-        
+        [Authorize]
+        public async Task<IActionResult> Checkout()
+        {
+            var data = await LoadCartDtoBasedOnLoggedInUser();
+            if (data.CartDetails == null || data.CartHeader == null)
+            {
+                TempData["error"] = "Cart does not created yet, please add atleast one item into cart to view";
+                return RedirectToAction("Index", "Home");
+            }
+            return View(data);
+        }
+
         public async Task<IActionResult> Remove(int cartDetailsId)
         {
             var userId = User.Claims.Where(u => u.Type == JwtRegisteredClaimNames.Sub)?.FirstOrDefault()?.Value;
