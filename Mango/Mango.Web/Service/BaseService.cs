@@ -34,6 +34,7 @@ namespace Mango.Web.Service
                 message.RequestUri = new Uri(requestDto.Url);
                 if (requestDto.Data != null)
                 {
+                    //var s = new JsonSerializerSettings { DateFormatHandling = DateFormatHandling.MicrosoftDateFormat };
                     message.Content = new StringContent(JsonConvert.SerializeObject(requestDto.Data), Encoding.UTF8, "application/json");
                 }
                 HttpResponseMessage? apiResponse = null;

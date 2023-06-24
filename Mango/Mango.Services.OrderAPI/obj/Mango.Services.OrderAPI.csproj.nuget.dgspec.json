@@ -4,6 +4,71 @@
     "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj": {}
   },
   "projects": {
+    "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj",
+        "projectName": "Mango.MessageBus",
+        "projectPath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\ANSHUL\\.nuget\\packages\\",
+        "outputPath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANSHUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.15.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +93,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj": {
+                "projectPath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
