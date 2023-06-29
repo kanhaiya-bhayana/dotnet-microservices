@@ -68,7 +68,11 @@ namespace Mango.Web.Controllers
                 };
 
                 var stripeResponse = await _orderService.CreateStripeSession(stripeRequestDto);
-                StripeRequestDto stripeResponse = JsonConvert.DeserializeObject<StripeRequestDto>(Convert.ToString(response.Result));
+                StripeRequestDto stripeResponseResult = JsonConvert.DeserializeObject<StripeRequestDto>
+                                                    (Convert.ToString(stripeResponse.Result));
+
+                Response.Headers.Add("Location", stripeResponseResult.StripeSessionUrl);
+                return new StatusCodeResult(303);
 
                 //return RedirectToAction("Index","Home");
             }
