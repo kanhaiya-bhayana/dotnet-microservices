@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kIzOBujO/6Lgwuhipk6OHAxtIHUGHvNI9zO7UGAyblA=",
+  "Hash": "JSMS40stEVhpg+q6IlqTtNRqNo1BIctPBMdN9R7nwgM=",
   "Source": "Mango.Web",
   "BasePath": "_content/Mango.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Web\\wwwroot\\Images\\ConfirmationImage.png",
+      "SourceId": "Mango.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Web\\wwwroot\\",
+      "BasePath": "_content/Mango.Web",
+      "RelativePath": "Images/ConfirmationImage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ConfirmationImage.png"
     },
     {
       "Identity": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Web\\wwwroot\\js\\site.js",

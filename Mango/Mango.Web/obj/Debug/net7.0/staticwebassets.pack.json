@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Mango.Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Web\\wwwroot\\Images\\ConfirmationImage.png",
+      "PackagePath": "staticwebassets\\Images\\ConfirmationImage.png"
+    },
+    {
       "Id": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
