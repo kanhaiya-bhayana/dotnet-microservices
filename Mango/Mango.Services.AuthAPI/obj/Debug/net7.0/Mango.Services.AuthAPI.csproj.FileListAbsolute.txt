@@ -8,13 +8,16 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\M
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\AutoMapper.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Core.Amqp.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Humanizer.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
@@ -38,6 +41,7 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\M
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -62,6 +66,8 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\r
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.MessageBus.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.MessageBus.pdb
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.csproj.AssemblyReference.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.GeneratedMSBuildEditorConfig.editorconfig
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.AssemblyInfoInputs.cache
@@ -83,9 +89,3 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\r
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.pdb
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\ref\Mango.Services.AuthAPI.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Core.Amqp.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.MessageBus.dll
-D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.MessageBus.pdb
