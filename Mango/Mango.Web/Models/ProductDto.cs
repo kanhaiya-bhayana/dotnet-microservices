@@ -15,7 +15,7 @@ namespace Mango.Web.Models
         [Range(1, 100)]
         public int Count { get; set; } = 1;
         [MaxFileSize(1)]
-        [AllowedExtensions(new string[] {".jpg", ".png"})]
+        [AllowedExtensions(new string[] {".jpg",".jpeg",".png"})]
         public IFormFile? Image { get; set; }
     }
 }
