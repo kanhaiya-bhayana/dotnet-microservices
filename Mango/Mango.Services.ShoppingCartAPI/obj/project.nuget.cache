@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LOMOm5pXJUDBEbX2mKoIzW2atElCEgtO4/XWfr1RdtpOWztlT4zHTct2pNUa0mRtD8E8VEjaxYOMajA8tQ/jdg==",
+  "dgSpecHash": "4aNFdeyMiXFVqVqPWQtOqlZ9B4/QbYozdUmzf5rEQ+dkrmUnnZIa88NfuzQeP5jvVbu7sSvtAC+Uzgf0nzUr2w==",
   "success": true,
   "projectFilePath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
   "expectedPackageFiles": [

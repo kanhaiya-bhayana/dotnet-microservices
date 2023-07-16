@@ -18,7 +18,8 @@ namespace Mango.Web.Service
             {
                 ApiType = ApiType.POST,
                 Data = productDto,
-                Url = ProductAPIBase + "/api/product"
+                Url = ProductAPIBase + "/api/product",
+                ContentType = ContentType.MultipartFormData
             });
         }
 
@@ -55,7 +56,8 @@ namespace Mango.Web.Service
             {
                 ApiType = ApiType.PUT,
                 Data = productDto,
-                Url = ProductAPIBase + "/api/product"
+                Url = ProductAPIBase + "/api/product",
+                ContentType = ContentType.MultipartFormData
             });
         }
     }

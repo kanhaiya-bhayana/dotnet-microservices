@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JrhzCu/XBTJs9YrOWDExILi/Ci5zN2X61ZNchWdI7tkzHx/LiekiRRczYQO0IWWzOGe6gWS6m5+kU7J4R0d3gw==",
+  "dgSpecHash": "1qu6Xp8ocj1w96tBNtka5FdBhc0X7JuCvO2W/f77dTIVi2V3n/kqsRRtnMveNK1blRxsCCWydgYn9H+gQDGZ4A==",
   "success": true,
   "projectFilePath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj",
   "expectedPackageFiles": [

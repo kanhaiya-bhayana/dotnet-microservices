@@ -29,29 +29,29 @@ namespace Mango.Web.Controllers
             return View(list);
         }
 
-		public async Task<IActionResult> ProductCreate()
-		{
-			return View();
-		}
+        public async Task<IActionResult> ProductCreate()
+        {
+            return View();
+        }
 
-		[HttpPost]
-		public async Task<IActionResult> ProductCreate(ProductDto model)
-		{
-			if (ModelState.IsValid)
-			{
-				ResponseDto? response = await _productService.CreateProductAsync(model);
-				if (response != null && response.IsSuccess)
-				{
-					TempData["success"] = "Coupon Created Successfully.";
-					return RedirectToAction(nameof(ProductIndex));
-				}
-				else
-				{
-					TempData["error"] = response?.Message;
-				}
-			}
-			return View(model);
-		}
+        [HttpPost]
+        public async Task<IActionResult> ProductCreate(ProductDto model)
+        {
+            if (ModelState.IsValid)
+            {
+                ResponseDto? response = await _productService.CreateProductAsync(model);
+                if (response.Result != null && response.IsSuccess)
+                {
+                    TempData["success"] = "Product Created Successfully.";
+                    return RedirectToAction(nameof(ProductIndex));
+                }
+                else
+                {
+                    TempData["error"] = response?.Message;
+                }
+            }
+            return View(model);
+        }
 
         [HttpGet]
         public async Task<IActionResult> ProductDelete(int productId)
@@ -100,10 +100,19 @@ namespace Mango.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> ProductEdit(ProductDto productDto)
         {
-            ResponseDto? response = await _productService.UpdateProductAsync(productDto);
-            if (response != null && response.IsSuccess)
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(ProductIndex));
+
+                ResponseDto? response = await _productService.UpdateProductAsync(productDto);
+                if (response != null && response.IsSuccess)
+                {
+                    TempData["success"] = "Product updated successfully.";
+                    return RedirectToAction(nameof(ProductIndex));
+                }
+                else
+                {
+                    TempData["error"] = response?.Message;
+                }
             }
             return View(productDto);
         }

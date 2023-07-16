@@ -80,3 +80,4 @@ D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net7.
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net7.0\Mango.Services.ProductAPI.pdb
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net7.0\Mango.Services.ProductAPI.genruntimeconfig.cache
 D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net7.0\ref\Mango.Services.ProductAPI.dll
+D:\Kanhaiya\Dotnet-microservices\Mango\Mango.Services.ProductAPI\bin\Debug\net7.0\Mango.Services.ProductAPI.staticwebassets.runtime.json

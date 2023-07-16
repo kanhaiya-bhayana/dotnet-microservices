@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wtWzc90Iq+NmSekJmH1WGFoeSoQTFnRE/pF+DLcuUGKQojlK03f36lbb9+tFFTanYtN8zwgYyjPRDogNVcwb9g==",
+  "dgSpecHash": "8DwnPYImmZjK4TFk0kmIk/1NByZ3o0pCTSNGV+sR1H3PfzOW2vYv1kVHT1CKVfXyv9zDDYUB5P085XGu9fKyqg==",
   "success": true,
   "projectFilePath": "D:\\Kanhaiya\\Dotnet-microservices\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
