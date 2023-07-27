@@ -19,7 +19,7 @@
                                 <span class="text-danger" style="font-size:20px;">@product.Price.ToString("c")</span>
                                 <span class="badge bg-warning text-white p-2">@product.CategoryName</span>
                             </div>
-                                <p class="card-text">@Html.Raw(product.Description)</p>
+                            <p class="card-text text-truncate" style="height:50px">@Html.Raw(product.Description)</p>
                                 <div class="row">
                                     <div class="col">
                                     <a asp-action="ProductDetails" asp-route-productId="@product.ProductId" class="btn btn-success form-control">Details</a>
